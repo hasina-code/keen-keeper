@@ -1,11 +1,11 @@
 import React from 'react';
 
-const NotFound = () => {
+const NotFoundPage = () => {
     return (
         <div>
-            NotFound
+            
         </div>
     );
 };
 
-export default NotFound;
+export default NotFoundPage;

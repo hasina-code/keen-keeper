@@ -12,10 +12,11 @@ import Home from './page/Home.jsx';
 import Timeline from './page/Timeline.jsx';
 import Stats from './page/Stats.jsx';
 
-import NotFound from './page/NotFound.jsx';
+
 import FriendsDetails from './page/FriendDetails.jsx';
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import NotFoundPage from './page/NotFoundPage.jsx';
 
 
 
@@ -43,7 +44,7 @@ const router = createBrowserRouter([
       { path: "/timeline", element: <Timeline /> },
       { path: "/stats", element: <Stats /> },
       { path: "/friend/:id", element: <FriendsDetails /> },
-      { path: "*", element: <NotFound /> },
+      { path: "*", element: <NotFoundPage /> },
     ]
   }
 ]);
