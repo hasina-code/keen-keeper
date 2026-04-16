@@ -12,8 +12,7 @@ const BannerSummaryCards = () => {
   return (
     <div className="bg-[#F8FAFC]">
       <div className="container mx-auto px-6 lg:px-20 -mt-10 relative z-10">
-        
-        {/* ৪টি কার্ডের গ্রিড */}
+      
         <div className="grid grid-cols-2 lg:grid-cols-4 gap-4 md:gap-6 max-w-7xl mx-auto">
           {summaryCards.map((card) => (
             <div 

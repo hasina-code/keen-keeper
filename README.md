@@ -1,16 +1,28 @@
-# React + Vite
+# Keen Keeper
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern friend relationship tracking web application built with React.  
+It helps users keep track of their friendships, interactions, and relationship goals through an interactive dashboard, timeline, and analytics system.
 
-Currently, two official plugins are available:
+## Technologies Used
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+1. React.js – (UI development)
+2. React Router DOM – (Navigation and routing )
+3. Tailwind CSS – (Styling and responsiveness)
+4. Recharts – (Data visualization (Pie Chart))
+5. React Toastify – (Notifications )
+6. Lucide React – (Icons )
+7. Session Storage – (Local interaction history storage )
 
-## React Compiler
+# 3 Key Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Interaction Tracking System
 
-## Expanding the ESLint configuration
+Users can easily perform check-ins (Call, Text, Video) with friends, and every interaction is automatically saved to the timeline.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Timeline & Filtering System
+
+All interactions are displayed in a structured timeline, with filtering options by Call, Text, and Video for easy navigation.
+
+## Friendship Analytics Dashboard
+
+Uses Recharts to visualize interaction data in a Pie Chart, helping users understand their communication patterns.
