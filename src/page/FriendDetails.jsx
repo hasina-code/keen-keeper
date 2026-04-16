@@ -5,22 +5,31 @@ import FriendInfoCard from '../Components/FriendDetail/FriendInfoCard';
 import FriendStats from '../Components/FriendDetail/FriendsStats';
 import QuickCheckIn from '../Components/FriendDetail/QuickCheckIn';
 
-
 const FriendDetails = () => {
     const { id } = useParams();
     const [friend, setFriend] = useState(null);
 
     useEffect(() => {
+   
+       // console.log("Looking for ID:", id);
+
         fetch('/friends.json')
             .then(res => res.json())
             .then(data => {
                 const found = data.find(f => f.id == id);
+               // console.log("Friend Found:", found);
+               
                 setFriend(found);
-            });
+            })
+            .catch(err => console.error("Error fetching friend:", err));
     }, [id]);
 
     const handleCheckIn = (type) => {
         if (!friend) return;
+
+      //  console.log("New Interaction Started ---");
+       // console.log("Interaction Type:", type);
+
         const today = new Date().toLocaleDateString('en-US', {
             month: 'long', day: 'numeric', year: 'numeric',
         });
@@ -36,8 +45,11 @@ const FriendDetails = () => {
 
         const savedLogs = sessionStorage.getItem('my_timeline_logs');
         const existingHistory = savedLogs ? JSON.parse(savedLogs) : [];
+       // console.log("Existing History Count:", existingHistory.length);
+
         const updatedHistory = [newEntry, ...existingHistory];
         sessionStorage.setItem('my_timeline_logs', JSON.stringify(updatedHistory));
+       // console.log("Log Saved Successfully:", newEntry);
 
         toast.success(`${type} completed with ${friend.name}!`);
     };
@@ -47,23 +59,29 @@ const FriendDetails = () => {
     return (
         <div className="bg-[#F8FAFC] min-h-screen py-10 px-6 lg:px-20">
             <div className="max-w-7xl mx-auto grid grid-cols-1 lg:grid-cols-12 gap-8">
+          
                 <div className="lg:col-span-4">
                     <FriendInfoCard friend={friend} />
                 </div>
-               
+                
                 <div className="lg:col-span-8 space-y-6">
                     <FriendStats friend={friend} />
 
-                       <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm flex justify-between items-center">
+                    <div className="bg-white p-6 rounded-[20px] border border-gray-100 shadow-sm flex justify-between items-center group">
                         <div>
-                            <h4 className="text-sm font-black text-gray-800 uppercase mb-1">Relationship Goal</h4>
-                            <p className="text-gray-500 text-sm font-medium">Connect every <span className="text-[#1A3C34] font-bold">{friend.goal} days</span></p>
+                            <h4 className="text-[11px] font-black text-[#1A3C34] uppercase tracking-[0.15em] mb-1">
+                                Relationship Goal
+                            </h4>
+                            <p className="text-gray-500 text-sm font-medium">
+                                Connect every <span className="text-[#1A3C34] font-black">{friend.goal} days</span>
+                            </p>
                         </div>
-                        <button className="p-2 bg-gray-50 hover:bg-gray-100 transition-all">
+                        <button className="px-5 py-2 bg-[#F8FAFC] hover:bg-gray-100 text-gray-600 text-xs font-bold rounded-xl transition-all duration-300 border border-gray-50 active:scale-95">
                             Edit
                         </button>
                     </div>
-                      <QuickCheckIn onCheckIn={handleCheckIn} />
+
+                    <QuickCheckIn onCheckIn={handleCheckIn} />
                 </div>
             </div>
         </div>
