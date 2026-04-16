@@ -3,7 +3,7 @@ import { useParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
 import { Edit2 } from 'lucide-react';
 
-// কম্পোনেন্ট ইমপোর্ট
+
 
 
 import FriendInfoCard from '../Components/FriendDetail/FriendInfoCard';
@@ -55,8 +55,10 @@ const FriendDetails = () => {
                 <div className="lg:col-span-4">
                     <FriendInfoCard friend={friend} />
                 </div>
-
-              
+               
+                <div className="lg:col-span-8 space-y-6">
+                    <FriendStats friend={friend} />
+                </div>
             </div>
         </div>
     );
