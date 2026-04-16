@@ -30,9 +30,6 @@ const BannerSummaryCards = () => {
             </div>
           ))}
         </div>
-
-    
-     
       </div>
     </div>
   );
