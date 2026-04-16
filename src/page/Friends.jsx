@@ -41,7 +41,7 @@ const Friends = () => {
 
     return (
         <section className="bg-[#F8FAFC] min-h-screen container mx-auto px-6 lg:px-20 py-16">
-            <h2 className="text-2xl font-black text-[#1A3C34] mb-10">
+            <h2 className="text-3xl font-black text-[#1A3C34] mb-10">
                 Your Friends
             </h2>
 
