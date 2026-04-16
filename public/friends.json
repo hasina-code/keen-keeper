@@ -1,0 +1,122 @@
+[
+  {
+    "id": 1,
+    "name": "Sarah Jenkins",
+    "picture": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&q=80&w=200",
+    "email": "sarah.jenkins@gmail.com",
+    "days_since_contact": 15,
+    "status": "overdue",
+    "tags": ["College", "Close Friend"],
+    "bio": "Met during Freshman year at NYU. We share a passion for sustainable fashion and weekend brunch.",
+    "goal": 7,
+    "next_due_date": "Apr 06, 2026"
+  },
+  {
+    "id": 2,
+    "name": "David Kim",
+    "picture": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&q=80&w=200",
+    "email": "dkim.tech@yahoo.com",
+    "days_since_contact": 2,
+    "status": "on-track",
+    "tags": ["Work", "Mentor"],
+    "bio": "Former Senior Developer at my first job. Always gives the best career advice and book recommendations.",
+    "goal": 30,
+    "next_due_date": "May 12, 2026"
+  },
+  {
+    "id": 3,
+    "name": "Emma Wilson",
+    "picture": "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?auto=format&fit=crop&q=80&w=200",
+    "email": "emma.travels@outlook.com",
+    "days_since_contact": 6,
+    "status": "almost due",
+    "tags": ["Hiking", "Travel"],
+    "bio": "Backpacking buddy from the 2023 Euro trip. Currently planning a trek to the Dolomites together.",
+    "goal": 7,
+    "next_due_date": "Apr 15, 2026"
+  },
+  {
+    "id": 4,
+    "name": "Marcus Johnson",
+    "picture": "https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&q=80&w=200",
+    "email": "marcus.j@gmail.com",
+    "days_since_contact": 25,
+    "status": "overdue",
+    "tags": ["High School", "Gaming"],
+    "bio": "Childhood friend. We still play Warzone every Tuesday night, though we haven't talked properly lately.",
+    "goal": 14,
+    "next_due_date": "Mar 30, 2026"
+  },
+  {
+    "id": 5,
+    "name": "Aisha Patel",
+    "picture": "https://images.unsplash.com/photo-1534751516642-a1af1ef26a56?auto=format&fit=crop&q=80&w=200",
+    "email": "aisha.p@company.com",
+    "days_since_contact": 1,
+    "status": "on-track",
+    "tags": ["Work", "Creative"],
+    "bio": "Lead Designer at my current firm. We collaborate on UI projects and exchange design system tips.",
+    "goal": 5,
+    "next_due_date": "Apr 18, 2026"
+  },
+  {
+    "id": 6,
+    "name": "Lisa Nakamura",
+    "picture": "https://images.unsplash.com/photo-1517841905240-472988babdf9?auto=format&fit=crop&q=80&w=200",
+    "email": "lisa.nak@icloud.com",
+    "days_since_contact": 10,
+    "status": "almost due",
+    "tags": ["Neighbor", "Gym"],
+    "bio": "Moved in next door last year. She is a fitness enthusiast and my go-to person for morning runs.",
+    "goal": 12,
+    "next_due_date": "Apr 16, 2026"
+  },
+  {
+    "id": 7,
+    "name": "Tom Baker",
+    "picture": "https://images.unsplash.com/photo-1492562080023-ab3db95bfbce?auto=format&fit=crop&q=80&w=200",
+    "email": "baker.tom@gmail.com",
+    "days_since_contact": 45,
+    "status": "overdue",
+    "tags": ["Old Friend"],
+    "bio": "Former roommate from college. We lost touch after he moved to Berlin, really need to catch up.",
+    "goal": 60,
+    "next_due_date": "Mar 01, 2026"
+  },
+  {
+    "id": 8,
+    "name": "Olivia Martinez",
+    "picture": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&q=80&w=200",
+    "email": "olivia.m@startup.io",
+    "days_since_contact": 3,
+    "status": "on-track",
+    "tags": ["Networking", "Tech"],
+    "bio": "Met at a tech conference. She runs a successful AI startup and often invites me to industry events.",
+    "goal": 21,
+    "next_due_date": "May 02, 2026"
+  },
+  {
+    "id": 9,
+    "name": "Ryan O'Brien",
+    "picture": "https://images.unsplash.com/photo-1522075469751-3a6694fb2f61?auto=format&fit=crop&q=80&w=200",
+    "email": "ryan.obrien@music.com",
+    "days_since_contact": 8,
+    "status": "almost due",
+    "tags": ["Band", "Music"],
+    "bio": "Bassist in our amateur jazz band. We practice every other weekend in his garage.",
+    "goal": 10,
+    "next_due_date": "Apr 20, 2026"
+  },
+  {
+    "id": 10,
+    "name": "James Wright",
+    "picture": "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?auto=format&fit=crop&q=80&w=200",
+    "email": "j.wright.legal@legal.com",
+    "days_since_contact": 0,
+    "status": "on-track",
+    "tags": ["Family", "Cousin"],
+    "bio": "My favorite cousin who just moved to the city. We catch up on family news over dinner regularly.",
+    "goal": 7,
+    "next_due_date": "Apr 21, 2026"
+  }
+]
