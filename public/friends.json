@@ -118,5 +118,29 @@
     "bio": "My favorite cousin who just moved to the city. We catch up on family news over dinner regularly.",
     "goal": 7,
     "next_due_date": "Apr 21, 2026"
+  },
+  {
+    "id": 11,
+    "name": "Sophia Rossi",
+    "picture": "https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&q=80&w=200",
+    "email": "sophia.rossi@art.it",
+    "days_since_contact": 12,
+    "status": "overdue",
+    "tags": ["Photography", "Art"],
+    "bio": "Met during a workshop in Florence. She's a professional photographer and gives amazing feedback on my shots.",
+    "goal": 7,
+    "next_due_date": "Apr 10, 2026"
+  },
+  {
+    "id": 12,
+    "name": "Liam Henderson",
+    "picture": "https://images.unsplash.com/photo-1539571696357-5a69c17a67c6?auto=format&fit=crop&q=80&w=200",
+    "email": "liam.h@fitness.co",
+    "days_since_contact": 4,
+    "status": "on-track",
+    "tags": ["Gym", "Neighborhood"],
+    "bio": "Our local CrossFit trainer. Super energetic and always motivates me to stay consistent with my workouts.",
+    "goal": 14,
+    "next_due_date": "Apr 30, 2026"
   }
 ]

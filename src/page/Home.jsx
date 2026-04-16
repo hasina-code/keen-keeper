@@ -1,6 +1,7 @@
 
 import Banner from '../Components/homepage/Banner';
-import BannerSummaryCards from '../Components/homepage/BannerSummaryCards';
+import BannerStats from '../Components/homepage/BannerStats';
+
 
 import Friends from './Friends';
 
@@ -8,7 +9,7 @@ const Home = () => {
   return (
     <>
       <Banner />
-      <BannerSummaryCards />
+   <BannerStats/>
      <Friends/>
     </>
   );
