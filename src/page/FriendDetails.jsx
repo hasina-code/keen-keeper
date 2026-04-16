@@ -58,6 +58,17 @@ const FriendDetails = () => {
                
                 <div className="lg:col-span-8 space-y-6">
                     <FriendStats friend={friend} />
+
+                       <div className="bg-white p-6 rounded-2xl border border-gray-100 shadow-sm flex justify-between items-center">
+                        <div>
+                            <h4 className="text-sm font-black text-gray-800 uppercase mb-1">Relationship Goal</h4>
+                            <p className="text-gray-500 text-sm font-medium">Connect every <span className="text-[#1A3C34] font-bold">{friend.goal} days</span></p>
+                        </div>
+                        <button className="p-2 bg-gray-50 hover:bg-gray-100 transition-all">
+                            Edit
+                        </button>
+                    </div>
+                      <QuickCheckIn onCheckIn={handleCheckIn} />
                 </div>
             </div>
         </div>
