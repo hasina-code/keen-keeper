@@ -30,7 +30,7 @@ const Navbar = () => {
                     <Link 
                         key={item.path} 
                         to={item.path} 
-                        className={`flex items-center gap-2 px-4 py-2 rounded-xl font-bold transition-all duration-300 ${
+                        className={`flex items-center gap-2 px-4 py-2 font-bold transition-all duration-300 ${
                             location.pathname === item.path 
                             ? 'bg-[#244D3F] text-white shadow-md' 
                             : 'text-gray-500 hover:bg-gray-100'
