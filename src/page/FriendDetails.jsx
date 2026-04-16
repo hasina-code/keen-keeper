@@ -1,11 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { useParams } from 'react-router-dom';
 import { toast } from 'react-toastify';
-import { Edit2 } from 'lucide-react';
-
-
-
-
 import FriendInfoCard from '../Components/FriendDetail/FriendInfoCard';
 import FriendStats from '../Components/FriendDetail/FriendsStats';
 import QuickCheckIn from '../Components/FriendDetail/QuickCheckIn';
