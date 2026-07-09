@@ -3,6 +3,9 @@
 A modern friend relationship tracking web application built with React.  
 It helps users keep track of their friendships, interactions, and relationship goals through an interactive dashboard, timeline, and analytics system.
 
+Live URL
+🔗https://friend-keen-keeper.netlify.app/
+
 ## Technologies Used
 
 1. React.js – (UI development)
